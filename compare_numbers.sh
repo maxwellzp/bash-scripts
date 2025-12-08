@@ -3,18 +3,15 @@
 read -p "Enter a number: " number_1
 readonly number_2=10
 
-if (( number_1 > number_2 ))
-then
+if (( number_1 > number_2 )); then
     printf "%d is greater than %d.\n" "$number_1" "$number_2"
 fi
 
-if (( number_1 < number_2 ))
-then
+if (( number_1 < number_2 )); then
     printf "%d is less than %d.\n" "$number_1" "$number_2"
 fi
 
-if (( number_1 == number_2 ))
-then
+if (( number_1 == number_2 )); then
     printf "%d and %d are equal.\n" "$number_1" "$number_2"
 fi
 

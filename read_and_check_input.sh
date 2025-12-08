@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 read -p "Enter your name: " name
-if [[ -z "$name" ]]
-then
+if [[ -z "$name" ]]; then
   echo "No name entered" >&2
   exit 1
 fi
